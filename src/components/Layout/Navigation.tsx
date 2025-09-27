@@ -14,7 +14,8 @@ import {
   ArrowTrendingUpIcon,
   BeakerIcon,
   ChatBubbleBottomCenterIcon,
-  SignalIcon
+  SignalIcon,
+  DocumentMagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
 
 // TypeScript 接口定義
@@ -101,7 +102,7 @@ const Navigation: React.FC = () => {
         {
           name: "金融代號查詢",
           href: "/market-analysis/financial-code",
-          icon: SignalIcon,
+          icon: DocumentMagnifyingGlassIcon,
           description: "金融代號查詢與資訊",
           color: "text-purple-600",
           bgColor: "bg-purple-50",
